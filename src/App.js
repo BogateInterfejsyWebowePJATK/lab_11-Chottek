@@ -1,12 +1,12 @@
 import './App.css';
-import Generator from "./components/Generator";
+import Nums from "./components/numbers/Nums"
 import React from "react";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Generator/>
+       <Nums/>
       </header>
     </div>
   );
